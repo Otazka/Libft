@@ -6,15 +6,15 @@
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/25 22:43:19 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/25 22:46:57 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/05/25 22:56:36 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strchr(const *str, int c)
+char *ft_strchr(const *str, int a)
 {
-    while (*str != (char)c)
+    while (*str != (char)a)
     {
         if (*str == '/0')
             return (NULL);
