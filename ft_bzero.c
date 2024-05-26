@@ -6,7 +6,7 @@
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 02:43:56 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/26 02:50:17 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/05/26 02:53:10 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,5 @@
 
 void ft_bzero(void *s, size_t a)
 {
-    size_t i;
-    char *b;
-
-    c = (char *) s;
-    i = 0;
-    while (i < a)
-    {
-        c[i] = '\0';
-        i++;
-    }
+    ft_memset(s, 0, a);
 }
