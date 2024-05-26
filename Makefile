@@ -1,65 +1,34 @@
-Library		= libft
+NAME = libft.a
+CC = cc
+CFLAGS = -Wall -Wextra -Werror
+LIB = ar rcs
+RM = rm -f
 
-files 	   = ft_strlen \
-			 ft_memmove \
-			 ft_memcpy \
-			 ft_strlcpy \
-			 ft_strlcat \
-			 ft_isalpha \
-			 ft_isdigit \
-			 ft_isalnum \
-			 ft_isascii \
-			 ft_isprint \
-			 ft_memset \
-			 ft_bzero \
-			 ft_toupper \
-			 ft_tolower \
-			 ft_strchr \
-			 ft_strrchr \
-			 ft_strncmp \
-			 ft_memchr \
-			 ft_memcmp \
-			 ft_strnstr \
-			 ft_atoi \
-			 ft_calloc \
-			 ft_strdup \
-			 ft_substr \
-			 ft_strjoin \
-			 ft_strtrim \
-			 ft_split \
-			 ft_itoa \
-			 ft_strmapi \
-			 ft_striteri \
-			 ft_putchar_fd \
-			 ft_putstr_fd \
-			 ft_putendl_fd \
-			 ft_putnbr_fd \
+SRC	=	ft_atoi.c ft_lstdelone.c ft_putendl_fd.c ft_strncmp.c \
+		ft_bzero.c ft_lstiter.c ft_putnbr_fd.c ft_strnstr.c \
+		ft_calloc.c ft_lstlast.c ft_putstr_fd.c ft_strrchr.c \
+		ft_isalnum.c ft_lstmap.c ft_split.c ft_strtrim.c \
+		ft_isalpha.c ft_lstnew.c ft_strchr.c ft_substr.c \
+		ft_isascii.c ft_lstsize.c ft_strdup.c ft_tolower.c \
+		ft_isdigit.c ft_memchr.c ft_striteri.c ft_toupper.c \
+		ft_isprint.c ft_memcmp.c ft_strjoin.c get_next_line.c \
+		ft_itoa.c ft_memcpy.c ft_strlcat.c ft_lstadd_back.c \
+		ft_memmove.c ft_strlcpy.c ft_lstadd_front.c ft_memset.c \
+		ft_strlen.c ft_lstclear.c ft_putchar_fd.c ft_strmapi.c
 
-Compiler	= gcc
-
-CmpFlags	= -Wall -Wextra -Werror
-
-OUTN	= $(Library).a
-
-CFILES	= $(files:%=%.c)
-
-OFILES	= $(files:%=%.o)
-
-NAME	= $(OUTN)
-
-$(NAME):
-	$(Compiler) $(CmpFlags) -c $(CFILES) -I./
-	ar -rc $(OUTN) $(OFILES)
+SRC_OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
 
+$(NAME): $(SRC_OBJ)
+	$(LIB) $(NAME) $(SRC_OBJ)
+
 clean:
-	rm -f $(NAME)
-	rm -f $(OFILES)
+	$(RM) $(SRC_OBJ)
 
 fclean: clean
-	rm -f $(NAME)
+	$(RM) $(NAME)
 
 re: fclean all
 
-.PHONY: all, clean, fclean, re
+.SILENT:
