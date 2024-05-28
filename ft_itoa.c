@@ -12,48 +12,38 @@
 
 #include "libft.h"
 
-static unsigned int	ft_number_size(int number)
+static size_t	get_digits(int n)
 {
-    unsigned int	length;
+    size_t	i;
 
-    length = 0;
-    if (number == 0)
-        return (1);
-    if (number < 0)
-        length += 1;
-    while (number != 0)
-    {
-        number /= 10;
-        length++;
-    }
-    return (length);
+    i = 1;
+    while (n /= 10)
+        i++;
+    return (i);
 }
 
-char	*ft_itoa(int n)
+char			*ft_itoa(int n)
 {
-    char		*string;
-    unsigned int	number;
-    unsigned int	length;
+    char		*str_num;
+    size_t		digits;
+    long int	num;
 
-    length = ft_number_size(n);
-    string = (char *)malloc(sizeof(char) * (length + 1));
-    if (string == NULL)
+    num = n;
+    digits = get_digits(n);
+    if (n < 0)
+    {
+        num *= -1;
+        digits++;
+    }
+    if (!(str_num = (char *)malloc(sizeof(char) * (digits + 1))))
         return (NULL);
-    if (number < 0)
+    *(str_num + digits) = 0;
+    while (digits--)
     {
-        string[0] = '-';
-        number = -n;
+        *(str_num + digits) = num % 10 + '0';
+        num = num / 10;
     }
-    else
-        number = n;
-    if (number == 0)
-        string[0] = '0';
-    string[length] = '\0';
-    while (number != 0)
-    {
-        string[length - 1] = (number % 10) + '0';
-        number = number / 10;
-        length--;
-    }
-    return (string);
+    if (n < 0)
+        *(str_num + 0) = '-';
+    return (str_num);
 }
