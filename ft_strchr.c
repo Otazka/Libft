@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-char *ft_strchr(const *str, int a)
+char *ft_strchr(const *str, int c)
 {
-    while (*str != (char)a)
+    while (*str != (char)c)
     {
         if (*str == '/0')
             return (NULL);
