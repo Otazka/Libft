@@ -5,45 +5,61 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/26 23:22:19 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/26 23:36:19 by elsurovt         ###   ########.fr       */
+/*   Created: 2024/05/29 00:10:20 by elsurovt          #+#    #+#             */
+/*   Updated: 2024/05/29 06:46:18 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	get_digits(int n)
+static char	*ft_array(char *x, unsigned int number, long int len)
 {
-    size_t	i;
-
-    i = 1;
-    while (n /= 10)
-        i++;
-    return (i);
+    while (number > 0)
+    {
+        x[len--] = 48 + (number % 10);
+        number = number / 10;
+    }
+    return (x);
 }
 
-char			*ft_itoa(int n)
+static long int	ft_len(int n)
 {
-    char		*str_num;
-    size_t		digits;
-    long int	num;
+    int len;
 
-    num = n;
-    digits = get_digits(n);
-    if (n < 0)
+    len = 0;
+    if (n <= 0)
+        len = 1;
+    while (n != 0)
     {
-        num *= -1;
-        digits++;
+        len++;
+        n = n / 10;
     }
-    if (!(str_num = (char *)malloc(sizeof(char) * (digits + 1))))
+    return (len);
+}
+
+char *ft_itoa(int n)
+{
+    char *x;
+    long int len;
+    unsigned int number;
+    int sign;
+
+    sign = 1;
+    len = ft_len(n);
+    x = (char *)malloc(sizeof(char) * (len + 1));
+    if (!(x))
         return (NULL);
-    *(str_num + digits) = 0;
-    while (digits--)
-    {
-        *(str_num + digits) = num % 10 + '0';
-        num = num / 10;
-    }
+    x[len--] = '\0';
+    if (n == 0)
+        x[0] = '0';
     if (n < 0)
-        *(str_num + 0) = '-';
-    return (str_num);
+    {
+        sign *= -1;
+        number = n * -1;
+        x[0] = '-';
+    }
+    else
+        number = n;
+    x = ft_array(x, number, len);
+    return (x);
 }
