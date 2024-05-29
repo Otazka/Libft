@@ -12,8 +12,8 @@
 
 #include "libft.h"
 
-int ft_tolower(int a) {
-    if (a >= 97 && a <= 122)
-        return (a + 32);
-    return (a);
+int ft_tolower(int c) {
+    if (c >= 97 && c <= 122)
+        return (c + 32);
+    return (c);
 }
