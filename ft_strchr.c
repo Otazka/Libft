@@ -16,7 +16,7 @@ char *ft_strchr(const char *str, int c)
 {
     while (*str != (char)c)
     {
-        if (*str == '/0')
+        if (*str == '\0')
             return (NULL);
         str++;
     }
