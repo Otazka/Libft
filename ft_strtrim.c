@@ -28,6 +28,6 @@ char *ft_strtrim(char const *s1, char const *set)
         i++;
     while (s1[i] && ft_strchr(set, s1[j]))
         j--;
-    str = ft_ft_substr(s1, i, ((j - 1) + 1));
+    str = ft_substr(s1, i, ((j - 1) + 1));
     return (str);
 }
