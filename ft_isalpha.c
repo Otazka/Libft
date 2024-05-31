@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
+/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 01:04:02 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/25 21:50:44 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/05/31 11:54:14 by elenasurovt      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isalpha(int a)
+int	ft_isalpha(int a)
 {
-    while((a > 64 && a < 91) || (a > 96 && a < 123))
-        return (1);
-    return(0);
+	while ((a > 64 && a < 91) || (a > 96 && a < 123))
+		return (1);
+	return (0);
 }

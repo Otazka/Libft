@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
+/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 03:20:09 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/27 00:38:42 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/05/31 13:02:18 by elenasurovt      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ size_t	ft_strlen(const char *str);
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
 void	ft_bzero(void *buffer, size_t n);
-void    *ft_calloc(size_t count, size_t size);
+void	*ft_calloc(size_t count, size_t size);
 void	*ft_memset(void *buffer, int c, size_t n);
 void	*ft_memchr(const void *str, int c, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
@@ -59,8 +59,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 //Part Bonus:
 typedef struct s_list
 {
-    void			*content;
-    struct s_list	*next;
+	void			*content;
+	struct s_list	*next;
 }	t_list;
 
 t_list	*ft_lstnew(void *content);

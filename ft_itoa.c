@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
+/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 00:10:20 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/29 06:46:18 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/05/31 12:03:06 by elenasurovt      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,52 +14,49 @@
 
 static char	*ft_array(char *x, unsigned int number, long int len)
 {
-    while (number > 0)
-    {
-        x[len--] = 48 + (number % 10);
-        number = number / 10;
-    }
-    return (x);
+	while (number > 0)
+	{
+		x[len--] = 48 + (number % 10);
+		number = number / 10;
+	}
+	return (x);
 }
 
 static long int	ft_len(int n)
 {
-    int len;
+	int	len;
 
-    len = 0;
-    if (n <= 0)
-        len = 1;
-    while (n != 0)
-    {
-        len++;
-        n = n / 10;
-    }
-    return (len);
+	len = 0;
+	if (n <= 0)
+		len = 1;
+	while (n != 0)
+	{
+		len++;
+		n = n / 10;
+	}
+	return (len);
 }
 
-char *ft_itoa(int n)
+char	*ft_itoa(int n)
 {
-    char *x;
-    long int len;
-    unsigned int number;
-    //int sign;
+	long int	len;
+	size_t		number;
+	char		*x;
 
-    //sign = 1;
-    len = ft_len(n);
-    x = (char *)malloc(sizeof(char) * (len + 1));
-    if (!(x))
-        return (NULL);
-    x[len--] = '\0';
-    if (n == 0)
-        x[0] = '0';
-    if (n < 0)
-    {
-        //sign *= -1;
-        number = n * -1;
-        x[0] = '-';
-    }
-    else
-        number = n;
-    x = ft_array(x, number, len);
-    return (x);
+	len = ft_len(n);
+	x = (char *)malloc(sizeof(char) * (len + 1));
+	if (!(x))
+		return (NULL);
+	x[len--] = '\0';
+	if (n == 0)
+		x[0] = '0';
+	if (n < 0)
+	{
+		number = n * -1;
+		x[0] = '-';
+	}
+	else
+		number = n;
+	x = ft_array(x, number, len);
+	return (x);
 }
