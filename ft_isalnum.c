@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 01:19:21 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 11:53:19 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:44:19 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

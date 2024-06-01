@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 02:30:03 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 11:57:46 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:44:42 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

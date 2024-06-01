@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/25 23:22:13 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:52:18 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:48:06 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

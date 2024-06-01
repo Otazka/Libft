@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 00:45:28 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:04:19 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:44:57 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 00:27:53 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:24:40 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:46:14 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

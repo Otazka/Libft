@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/25 22:30:40 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 11:47:27 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:43:53 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

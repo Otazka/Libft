@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 01:09:43 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:15:45 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:45:24 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

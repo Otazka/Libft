@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 01:25:43 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:35:19 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:47:08 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

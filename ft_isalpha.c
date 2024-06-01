@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 01:04:02 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 11:54:14 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:44:25 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 02:43:56 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 11:40:02 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:44:03 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

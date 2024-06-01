@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 00:10:20 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:03:06 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:44:47 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

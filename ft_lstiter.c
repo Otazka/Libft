@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 01:06:27 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:11:03 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:45:13 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

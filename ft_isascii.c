@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 02:24:33 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 11:54:36 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:44:30 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

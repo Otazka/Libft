@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 23:06:15 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 12:28:12 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:46:31 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
