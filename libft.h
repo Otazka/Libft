@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 03:20:09 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:02:18 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 12:58:32 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,17 @@
 # define LIBFT_H
 
 # include <stdlib.h>
+# include <stdint.h>
 # include <unistd.h>
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <fcntl.h>
+# include <string.h>
+# include <limits.h>
+# include <stdio.h>
+# include <strings.h>
+
+
 
 //------------LIBFT---------------/
 // Mandatory Part 1:
