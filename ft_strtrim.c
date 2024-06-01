@@ -6,30 +6,48 @@
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/01 14:01:48 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/06/01 14:19:14 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/06/01 14:23:48 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
+
+static int	ft_check(char c, char const *set)
+{
+	while (*set)
+	{
+		if (c == *set)
+			return (1);
+		set++;
+	}
+	return (0);
+}
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t i;
-	size_t j;
-	char *str;
+	char	*res;
+	size_t	index;
+	size_t	start;
+	size_t	end;
 
-	str = 0;
-	if (s1 != 0 && set != 0)
+	if (s1 == NULL || set == NULL)
+		return (NULL);
+	index = 0;
+	start = 0;
+	end = ft_strlen(s1);
+	while (s1[start] && ft_check(s1[start], set))
+		start++;
+	while (end > start && ft_check(s1[end - 1], set))
+		end--;
+	res = (char *) malloc(sizeof(char) * (end - start + 1));
+	if (res == NULL)
+		return (NULL);
+	s1 += start;
+	while (start < end)
 	{
-		i = 0;
-		j = ft_strlen(s1);
-		while (s1[i] && ft_strchr(set, s1[i]))
-			i++;
-		while (s1[j - 1] && ft_strchr(set, s1[j - 1] && j > i))
-			j--;
-		str = (char *)malloc(sizeof(char) * (j - i +1));
-		if (str)
-			ft_strlcpy(str, &s1[i], j - i +1);
+		res[index++] = *s1++;
+		start++;
 	}
-	return (str);
+	res[index] = '\0';
+	return (res);
 }
