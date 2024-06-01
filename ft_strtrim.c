@@ -6,7 +6,7 @@
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/01 14:01:48 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/06/01 14:12:46 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/06/01 14:18:28 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 			i++;
 		while (s1[j - 1] && ft_strchr(set, s1[j - 1] && j > i))
 			j--;
-		str = (char *)malloc(sizeof(char) * (j - i +1));
+		str = (char *)calloc(sizeof(char) * (j - i +1));
 		if (str)
 			ft_strlcpy(str, &s1[i], j - i +1);
 	}
