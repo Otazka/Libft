@@ -6,7 +6,7 @@
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 22:19:17 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/06/01 11:44:11 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/06/01 13:04:34 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	*ft_calloc(size_t count, size_t size)
 	size_t		a;
 	void		*p;
 
+	if (count != 0 && size > SIZE_MAX / count)
+		return (NULL);
 	if (count == 0 || size == 0)
 	{
 		count = 1;
