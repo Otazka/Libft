@@ -6,7 +6,7 @@
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 03:20:09 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/06/01 12:58:32 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/06/01 13:47:04 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@
 # include <limits.h>
 # include <stdio.h>
 # include <strings.h>
+# include <stddef.h>
 
 
 
