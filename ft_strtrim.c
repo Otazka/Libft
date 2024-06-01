@@ -6,11 +6,11 @@
 /*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/01 14:01:48 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/06/01 14:08:42 by elsurovt         ###   ########.fr       */
+/*   Updated: 2024/06/01 14:12:46 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include <libft.h>
+# include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
