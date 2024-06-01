@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 00:13:30 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 14:03:25 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:32:26 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 22:25:28 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:36:22 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:28:52 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

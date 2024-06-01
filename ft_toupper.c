@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/25 22:16:18 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:39:27 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:32:11 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

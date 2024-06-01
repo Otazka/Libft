@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 00:34:21 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:34:09 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:23:35 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

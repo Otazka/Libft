@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/25 23:09:05 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:38:08 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:26:49 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

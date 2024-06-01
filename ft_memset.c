@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 02:34:28 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:43:07 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:32:53 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

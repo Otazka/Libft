@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/26 02:17:11 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:42:06 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:24:18 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

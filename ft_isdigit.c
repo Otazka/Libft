@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+        */
+/*   By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 01:13:17 by elsurovt          #+#    #+#             */
-/*   Updated: 2024/05/31 13:40:59 by elenasurovt      ###   ########.fr       */
+/*   Updated: 2024/06/01 11:31:06 by elsurovt         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
