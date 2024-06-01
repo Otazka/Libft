@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: elenasurovtseva <elenasurovtseva@studen    +#+  +:+       +#+         #
+#    By: elsurovt <elsurovt@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/31 12:23:32 by elenasurovt       #+#    #+#              #
-#    Updated: 2024/05/31 14:02:52 by elenasurovt      ###   ########.fr        #
+#    Updated: 2024/06/01 11:52:40 by elsurovt         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
